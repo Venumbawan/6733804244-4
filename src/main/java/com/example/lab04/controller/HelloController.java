@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  * HelloController — REST Controller ตัวอย่างสำหรับ Lab04
  *
  * TODO: แก้ไขข้อมูลส่วนตัวด้านล่างให้เป็นของคุณ
- *   - NAME    : ชื่อ-สกุล ของนักศึกษา
- *   - ID      : รหัสนักศึกษา
- *   - SECTION : หมายเลขกลุ่ม (Section)
+ *   - NAME    : วงศกร สงวนกลิ่น
+ *   - ID      : 673380424-4
+ *   - SECTION : 4
  */
 
 // ── Annotations ──────────────────────────────────────────────────────────────
@@ -28,9 +28,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     // ── ข้อมูลนักศึกษา ── แก้ไขตรงนี้ ──────────────────────────────────────
-    private static final String NAME    = "Your Name Here";     // TODO: ใส่ชื่อจริง
-    private static final String ID      = "xxxx";               // TODO: ใส่รหัสนักศึกษา
-    private static final String SECTION = "x";                  // TODO: ใส่เลข Section
+    private static final String NAME    = "test";     // TODO: ใส่ชื่อจริง
+    private static final String ID      = "673380424-4";               // TODO: ใส่รหัสนักศึกษา
+    private static final String SECTION = "4";                  // TODO: ใส่เลข Section
     // ─────────────────────────────────────────────────────────────────────────
 
     /**
